@@ -1,0 +1,15 @@
+{
+	"name": "s3-access-worker",
+	"main": "src/index.ts",
+	"compatibility_date": "2025-02-24",
+	"workers_dev": true,
+	"observability": { "enabled": true },
+
+	"vars": {
+		"DEBUG": false, // for debugging
+		//"S3_ACCESS_ID": "", // YOUR ACCESS ID AS SECRET,
+		//"S3_SECRET_KEY": "", // YOUR ACCESS KEY AS SECRET
+		"S3_BUCKET_REGION": "", // YOUR BUCKET REGION
+		"S3_BUCKET_NAME": "" // YOUR BUCKET NAME
+	}
+}
